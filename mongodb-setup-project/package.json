@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-setup-project",
+  "version": "1.0.0",
+  "description": "A project to set up a local MongoDB server for development and verify its functionality.",
+  "main": "index.js",
+  "scripts": {
+    "list-collections": "bash scripts/list-collections.sh"
+  },
+  "dependencies": {
+    "mongodb": "^4.0.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
